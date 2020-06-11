@@ -58,7 +58,7 @@ header {
 }
 
 
-/*Container*/
+/*Index.html*/
 #profilepicture { 
     width:13em;
 	float: left;
@@ -67,6 +67,10 @@ header {
     border-color: thistle;
 }
 
+/*Porfolio.html*/
+.port-image {
+    margin: 20px auto;
+}
 /*Footer*/
 footer {
     border-top: 5px;
