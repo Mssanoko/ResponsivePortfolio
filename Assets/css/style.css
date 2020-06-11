@@ -40,7 +40,6 @@ header {
     font-family: 'Tenali Ramakrishna', sans-serif;
     border-top: 5px; 
     border-style: solid;
-    
     }
 
 #logo{
@@ -50,13 +49,13 @@ header {
     }
 
 .nav-link {
+    margin-left: 70px;
     color: white;
     text-indent: 50px;
     font-size: 25px;
     font-style: oblique;
     text-transform: uppercase;
 }
-
 
 /*Index.html*/
 #profilepicture { 
@@ -106,4 +105,8 @@ footer {
     color: white;
     background-color: thistle;
 
+}
+
+footer div {
+    margin-top: 10px;
 }
