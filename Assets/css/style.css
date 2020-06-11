@@ -4,6 +4,24 @@
 
 
 /*Navbar*/
+header {
+    background-color: thistle;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    }
+
+#logo{
+    color: white;
+    font-size: 50px;
+    }
+
+.nav-link {
+    color: white;
+    text-indent: 50px;
+    font-size: 25px;
+    font-style: oblique;
+    text-transform: uppercase; 
+}
 
 /*Footer*/
 footer {
