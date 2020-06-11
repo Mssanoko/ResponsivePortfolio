@@ -71,7 +71,31 @@ header {
 .port-image {
     margin: 20px auto;
 }
+
+/*Contact.html*/
+
+.form-control {
+    /* give input boxes right angles */
+    border-radius: 0;
+  
+    /* keep from horizontally resizing text area */
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .submit-btn {
+    /* Box-model */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    font-weight: bold;
+    background-color: thistle;
+    border: 0;
+  }
+
 /*Footer*/
+
 footer {
     border-top: 5px;
     border-style: solid;
