@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
+
 body {
     background-image: url("https://wallpaperplay.com/walls/full/d/6/4/66852.jpg");
     }
@@ -11,6 +13,7 @@ html {
     position: relative;
     min-height: 100%;
   }
+  
   main {
     margin: 80px 0;
   }
@@ -48,28 +51,30 @@ header {
     border-top: 5px; 
     border-style: solid;
     width: 100%;
+    justify-content: space-between;
+    display: inline-block;
     }
 
 #logo{
     color: white;
     font-size: 40px;
+    margin-right: 20px;
+    text-align: center;
 }
 
 .nav-link {
-    text-indent: 100px;
     font-size: 20px;
     font-style: oblique;
     width: 100%;
     color: white;
     margin-right: 25px;
+    padding: 0px 20px;
+     
 }
-.navbar-toggler {
-    color: white;
-    background-color: thistle;
-    border: 3px;
-    box-shadow: 0 7px 10px white;
+.navbar-nav {
+   flex-direction: row;
+   text-align: center;
 }
-
 /*Index.html*/
 #profilepicture { 
     width:13em;
@@ -85,22 +90,26 @@ header {
     margin: 20px auto;
 }
 .oiseau img {
-height: 200px;
-width: 200px;
+max-width: 100%;
+height: 350px;
+width: 350px;
 border-radius: 50%;
 border-color: thistle;
 border-style: solid;
 }
 .center {
+    background: thistle;
     font-family: 'Tenali Ramakrishna', sans-serif;
     color: white;
+    border: white;
+    border-style: double;
     transform: translate();
+    text-align: center;
     top: 50%;
-    left: 50%;
+    right: 10%;
+    width: 80%;
     position: absolute;
     text-shadow: 2px 2px 5px thistle;
-    
-    
 }
 /*Contact.html*/
 
